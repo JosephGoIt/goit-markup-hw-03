@@ -139,7 +139,7 @@ h3 {
     letter-spacing: 1.12px;
 }
 
-.hero button {
+.button {
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
@@ -150,8 +150,8 @@ h3 {
     color: var(--WHITE);
 }
 
-.order-button:hover,
-.order-button:focus {
+.button:hover,
+.button:focus {
     background-color: var(--OCEAN);
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -241,4 +241,18 @@ h3 {
     display: flex;
     gap: 24px;
     justify-content: center;
+}
+
+.filter-button {
+    background-color: var(--CLOUD);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--IRIS);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--CORNFLOWER);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
